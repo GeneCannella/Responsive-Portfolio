@@ -269,12 +269,14 @@ input[type=submit] {
 
     .main-section {
         /*background-color: #00f;*/
-        width: 50%;
+        width: 60%;
+        max-width: none;
     }
 
     .sidebar {
         /*background: #d88;*/
-        width: 50%;
+        width: 35%;
+        max-width: none;
     }
 
     .auth-image {
@@ -285,6 +287,18 @@ input[type=submit] {
     margin-right: 25px;*/
     /*clear: both;*/
     }
+
+    /*style portfolio here*/
+
+    .work {
+        position: relative;
+        float: left;
+        width: 100%;
+        margin: 20px 0 25px;
+        overflow: auto;
+}
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -319,7 +333,17 @@ input[type=submit] {
         margin-right: 25px;
     }
 
+
+    .work {
+        position: relative;
+        float: left;
+        width: 45%;
+        margin: 20px 0 25px;
+        overflow: auto;
+    }
+
 }
+
 
 @media screen and (max-width: 640px) {
     #masthead {
@@ -367,6 +391,14 @@ input[type=submit] {
     padding-top: 10px;
     }
 
+    .work {
+        position: relative;
+        float: left;
+        width: 100%;
+        margin: 20px 0 25px;
+        overflow: auto;
+    }
+
 }
 
 
@@ -376,6 +408,8 @@ input[type=submit] {
 you don't want it to stick to the top of a small screen and leave no room for the rest of your site."
 
 */
+
+/* Why does the 130px paddng start at the top of the masthead? */
 
 @-ms-viewport{
     width: extend-to-zoom;
